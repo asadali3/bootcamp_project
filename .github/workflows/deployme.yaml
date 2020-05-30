@@ -28,5 +28,5 @@ jobs:
         - name: Install Surge
           run: npm install -g surge
         - name: Run Surge
-          run: surge ./ bootcampasad.surge.sh --token ${{secrets.ASADBOOTCAMP}}
+          run: surge ./ bootcampasadnew.surge.sh --token ${{secrets.ASADBOOTCAMP}}
          
